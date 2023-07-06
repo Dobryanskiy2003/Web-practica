@@ -1,0 +1,22 @@
+.header {
+    padding: 32px 0;
+  }
+  
+  .header__nav {
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--black-color);
+  }
+  
+  .header__nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header__nav a {
+    color: var(--grey-color);
+  }
+  
+  a.header__nav_activebtn {
+    color: var(--black-color);
+  }
+  

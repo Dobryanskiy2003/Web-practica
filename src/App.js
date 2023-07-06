@@ -1,22 +1,19 @@
-import Header from "./components/Header/Header";
-import About from "./components/aboutMe/About";
-import Footer from "./components/footer/Footer";
-import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
-import Skills from "./components/skills/Skills";
+import Header from './components/Header';
+import About from './components/About';
+import Footer from './components/Footer';
+import Intro from './components/Intro';
+import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
 
-
-function App() {
-  return (
-    <>
-      <Header/>
-      <Intro/>
-      <About/>
-      <Skills/>
-      <Portfolio/>
-      <Footer/>
-    </>
-  );
-}
+const App = () => (
+  <>
+    <Header />
+    <Intro />
+    <About />
+    <Skills />
+    <Portfolio />
+    <Footer />
+  </>
+);
 
 export default App;

@@ -1,20 +1,18 @@
-:root{
+:root {
     --black-color: #070707;
     --grey-color: #828282;
-    --section-color: #F6F6F6;
-}
-
-body{
+    --section-color: #f6f6f6;
+  }
+  
+  body {
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     background: #fff;
-}
-
-.container{
+  }
+  
+  .container {
     max-width: 975px;
     margin: 0 auto;
     padding: 0 30px;
-}
+  }
+  
